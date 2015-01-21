@@ -10,7 +10,7 @@ class LibTest extends PHPUnit_Framework_TestCase
     public function testSubtract()
     {
         $lib = new Lib();
-        $this->assertEquals(0, $lib->subtract(1,1));
+        $this->assertEquals(0, $lib->substract(1,1));
     }
 }
 ?>
